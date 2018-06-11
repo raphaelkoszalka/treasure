@@ -1,0 +1,18 @@
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #3C4242;
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+  z-index: 9999;
+  border-top: 4px solid #2a2e2e;
+}
+
+#footerWrapper {
+  width: 100%
+}
+
+#footerBrand {
+  max-height: 35px;
+}

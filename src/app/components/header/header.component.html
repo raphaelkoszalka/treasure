@@ -1,0 +1,57 @@
+<div id="menuOverlay" style="width: 100%;" *ngIf="!showFixed">
+  <nav class="navbar  navbar-static-top" >
+    <div class="container">
+      <div class="col-md-12">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/logo-green.png" alt="">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Principal</a></li>
+            <li><a href="#">A Treasure</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Utilidades</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div style="width: 100%">
+  <nav class="navbar navbar-background navbar-static-top" *ngIf="showFixed">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/logo-green.png" alt="">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right" id="fixedList">
+            <li><a href="#">Principal</a></li>
+            <li><a href="#">A Treasure</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Utilidades</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

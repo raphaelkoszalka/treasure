@@ -1,0 +1,50 @@
+.video-background {
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  margin-bottom: 175px;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  overflow: hidden;
+}
+
+#videoOverflow {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+  position: absolute;
+}
+
+@media (max-width: 720px) {
+  .video-foreground {
+    z-index: 1 !important;
+  }
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    height: 120%;
+    top: -10%;
+  }
+}
+@media (min-aspect-ratio: 21/9) {
+  .video-foreground {
+    height: 150%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}

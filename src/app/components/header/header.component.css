@@ -1,0 +1,58 @@
+#menuOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 275px;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(2,2,2,.7)),to(rgba(2,2,2,0)));
+  background-image: linear-gradient(to bottom,rgba(2,2,2,.7),rgba(2,2,2,0));
+  background-repeat: repeat-x;
+  z-index: 100000;
+}
+.navbar {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent;
+  height: 92px;
+  position: fixed;
+  width: inherit;
+}
+.navbar-background {
+  -webkit-box-shadow: 0 3px 1px -1px #999;
+  -moz-box-shadow: 0 3px 1px -1px #999;
+  box-shadow: 0 3px 1px -1px #999;
+  background: url("../../../assets/navbar-low-poly-two.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+  height: 60px !important;
+}
+.navbar-background img {
+  height: 38px !important;
+}
+.navbar-background > .navbar-nav  > li > a {
+  line-height: 37px !important;
+}
+.navbar-nav > li > a {
+  color: #efefef;
+  line-height: 57px;
+  text-transform: uppercase;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.navbar-nav > li > a:hover {
+  color: #333;
+  border-bottom: 5px solid #00581f;
+}
+.navbar-brand img {
+  margin-top: -5px;
+  /*height: 50px;*/
+}
+.navbar-brand {
+  height: 88px;
+}
+#fixedList li a {
+  color: #00581f !important;
+}

@@ -1,0 +1,20 @@
+#mainCards {
+  margin-bottom: 70px;
+}
+
+.cardIcon {
+  font-size: 7em;
+  color: #007b2c;
+}
+
+.btn-treasure {
+  background-color: #32794b;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.panel {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}

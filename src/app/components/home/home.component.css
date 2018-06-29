@@ -5,9 +5,9 @@
   padding-bottom: 34px;
   margin-top: -151px;
   position: absolute;
-  border-bottom: 2px solid #00561e;
-  border-top: 2px solid #00561e;
-  color: white !important;
+  box-shadow: inset 0px 5px 3px -5px #333, inset 0px -5px 3px -5px #333;
+  color: #00581f !important;
+  background: url("../../../assets/navbar-low-poly-two.jpg");
 }
 
 #parallaxe {

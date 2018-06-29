@@ -11,10 +11,16 @@
   background-color: #32794b;
   text-transform: uppercase;
   color: #FFF;
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  bottom: 25px;
 }
 
 .panel {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  height: 450px;
+  position: relative;
 }

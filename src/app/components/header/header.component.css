@@ -25,14 +25,15 @@
   background: url("../../../assets/navbar-low-poly-two.jpg");
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: top center;
+  background-position: bottom center;
   height: 60px !important;
 }
 .navbar-background img {
   height: 38px !important;
 }
-.navbar-background > .navbar-nav  > li > a {
-  line-height: 37px !important;
+.navbar-background .navbar-nav  > li > a {
+  line-height: 28px !important;
+  font-size: 1em !important;
 }
 .navbar-nav > li > a {
   color: #efefef;
@@ -48,7 +49,6 @@
 }
 .navbar-brand img {
   margin-top: -5px;
-  /*height: 50px;*/
 }
 .navbar-brand {
   height: 88px;
